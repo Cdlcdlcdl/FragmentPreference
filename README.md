@@ -1,4 +1,5 @@
 # FragmentPreference
+1.
 
 ```
 <PreferenceCategory android:title="Dialog based preference">
@@ -24,6 +25,8 @@
 
 ![](https://i.loli.net/2019/04/09/5cac4901cb4e0.png)
 
+2.
+
 ```
  <PreferenceCategory  android:title="Launch preference">
         <PreferenceScreen android:title="Screen preference">
@@ -47,6 +50,8 @@
 
 ![](https://i.loli.net/2019/04/09/5cac4a8834b11.png)
 
+3.
+
 ```
 <PreferenceCategory  android:title="Preference attributes">
         <CheckBoxPreference
@@ -66,7 +71,7 @@
 
 ![](https://i.loli.net/2019/04/09/5cac4af11abf2.png)
 
-完整代码：
+4.完整代码：
 
 ```
 <?xml version="1.0" encoding="utf-8"?>
