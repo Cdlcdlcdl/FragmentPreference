@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen  xmlns:android="http://schemas.android.com/apk/res/android">
+
+<PreferenceCategory  android:title="In-line preference">
+    <CheckBoxPreference
+        android:summary="This is a checkbox"
+        android:title="CheckBox preference"
+        />
+</PreferenceCategory>
+
+    <PreferenceCategory android:title="Dialog based preference">
+        <EditTextPreference android:key="edit"
+            android:title="EditText Preference"
+            android:summary="An example that use a EditText"
+            android:dialogTitle="Enter your favorite" />
+        <ListPreference
+            android:key="list"
+            android:title="List Preference "
+            android:summary="An example that use a ListPreference"
+            android:entries="@array/entry_list"
+            android:entryValues="@array/values_list"
+            android:dialogTitle="Choose One"
+
+            />
+    </PreferenceCategory>
+
+    <PreferenceCategory  android:title="Launch preference">
+        <PreferenceScreen android:title="Screen preference">
+        <CheckBoxPreference
+            android:summary="This is a checkbox"
+            android:title="CheckBox preference"
+            />
+        </PreferenceScreen>
+        <Preference android:title="intent preference" >
+            <intent android:action="android.intent.action.VIEW"
+                android:data="http://www.baidu.com" />
+        </Preference>
+    </PreferenceCategory>
+    <PreferenceCategory  android:title="Preference attributes">
+        <CheckBoxPreference
+            android:key="Parent"
+            android:summary="This is a visually parent"
+            android:title="Parent CheckBox preference"
+            />
+        <CheckBoxPreference
+            android:summary="This is a visually child"
+            android:title="Child CheckBox preference"
+            android:dependency="Parent"
+
+            />
+    </PreferenceCategory>
+</PreferenceScreen>

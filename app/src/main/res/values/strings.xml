@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">4</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+    <string-array name="entry_list">
+        <item>Alpha Option01</item>
+        <item>Beta Option02</item>
+        <item>Charile Option03</item>
+    </string-array>
+    <string-array name="values_list">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+</resources>
