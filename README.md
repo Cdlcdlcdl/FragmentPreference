@@ -15,4 +15,6 @@
             android:dialogTitle="Choose One"
             />
     </PreferenceCategory>
-    ```
+```
+
+![](https://i.loli.net/2019/04/09/5cac48663eb5f.png)
